@@ -14,7 +14,7 @@
                     <th>Education</th>
                     <th>Salary</th>
                     </tr>
-                    <xsl:for-each select="class/student">
+                    <xsl:for-each select="employeeData/employee">
                         
                         <tr>
                             <td><xsl:value-of select = "@empId"/></td>
